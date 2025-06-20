@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 237, 245);
+    border: 10px solid black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 15px;
+    max-width: 1200px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+.leftside{
+    width: auto;
+    margin-right: 0;
+    
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.rightside{
+    
+    width: auto;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 12%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 20px;
+    font-family: 'Georgia', serif;
+    flex-direction: column;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin:0;
+}
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin:0;
+}
+.about-kalam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+
+}
+h2{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    line-height:30px;
+    letter-spacing: 1.2px;
+}
+.biographies{
+    align-self: flex-start;
+    margin-top: 20px;
+    padding-left:0;
+    font-size: 20px;
+    line-height: 28px;
+    width:100%;
+    max-width:1000px;
+
+}
+.biographies h3{
+    font-size: 25px;
+
+}
+.biographies ul{
+    margin-top: 15px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.biographies li{
+    margin-bottom: 8px;
+}
+.more-about-kalam{
+    align-self: flex-end;
+    margin-top: 30px;
+    padding-right:0;
+    font-size: 15px;
+
+}
